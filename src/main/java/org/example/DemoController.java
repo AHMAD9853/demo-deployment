@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class DemoController {
 
-    @GetMapping("/meesage")
+    @GetMapping("/message")
     public String message(){
         return "Hello from spring boot";
     }
